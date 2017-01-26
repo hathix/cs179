@@ -6,6 +6,7 @@
     position: absolute;
     border: 1px solid black;
     padding: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
 
 
@@ -14,28 +15,39 @@
     top: 300px;
     left: 700px;
     z-index: 3;
+    transform: rotate(8deg);
 }
 
 #sticky2 {
     background-color: #CCFF66;
     top: 100px;
     left: 250px;
+    transform: rotate(-12deg);
 }
 
 #sticky3 {
     background-color: #CCCFFF;
     top: 50px;
     left: 600px;
+    transform: rotate(6deg);
 }
 
 #sticky4 {
     background-color: #CC33CC;
     top: 200px;
     left: 500px;
+    transform: rotate(13deg);
 }
 
 #sticky5 {
     background-color: #FFFFBB;
     top: 300px;
     left: 200px;
+    transform: rotate(-7deg);
+}
+
+body {
+    background: url(wood.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
