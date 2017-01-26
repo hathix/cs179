@@ -1,0 +1,41 @@
+.sticky {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+
+#sticky1 {
+    background-color: #FFCC33;
+    top: 300px;
+    left: 700px;
+    z-index: 3;
+}
+
+#sticky2 {
+    background-color: #CCFF66;
+    top: 100px;
+    left: 250px;
+}
+
+#sticky3 {
+    background-color: #CCCFFF;
+    top: 50px;
+    left: 600px;
+}
+
+#sticky4 {
+    background-color: #CC33CC;
+    top: 200px;
+    left: 500px;
+}
+
+#sticky5 {
+    background-color: #FFFFBB;
+    top: 300px;
+    left: 200px;
+}
